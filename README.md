@@ -1,6 +1,8 @@
 # README
 
-Cheikh Ahmed Tidiane FALL
+[![Maintainability](https://api.codeclimate.com/v1/badges/5776d7efb96087bc3ff9/maintainability)](https://codeclimate.com/github/YosefBayoude/backend/maintainability)
+
+Yosef Bayoude Izouka
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
