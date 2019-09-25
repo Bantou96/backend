@@ -182,7 +182,7 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
-  x86-MINGW32
+  x86-MINGW64
  ruby 
   x86_64-linux
 
