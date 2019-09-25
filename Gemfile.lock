@@ -182,9 +182,9 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
-ruby
   x86-MINGW64
   x86-MINGW32
+  ruby
   x86_64-linux
 
 DEPENDENCIES
