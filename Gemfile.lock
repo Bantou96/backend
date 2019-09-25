@@ -183,7 +183,7 @@ GEM
 
 PLATFORMS
 ruby
-  x86_64-linux
+  x86-MINGW32
 
 DEPENDENCIES
   bootsnap (= 1.4.1)
