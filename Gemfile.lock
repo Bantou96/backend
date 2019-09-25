@@ -185,7 +185,7 @@ PLATFORMS
   x86-MINGW64
   x86-MINGW32
   ruby
-  x86_64-linux
+  x64-mingw
 
 DEPENDENCIES
   bootsnap (= 1.4.1)
