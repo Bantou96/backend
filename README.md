@@ -2,7 +2,7 @@
 
 <a href="https://codeclimate.com/github/Bantou96/backend/maintainability"><img src="https://api.codeclimate.com/v1/badges/53fd18f965a82b831679/maintainability" /></a>
 <a href="https://codeclimate.com/github/Bantou96/backend/test_coverage"><img src="https://api.codeclimate.com/v1/badges/53fd18f965a82b831679/test_coverage" /></a>
-https://travis-ci.org/Bantou96/backend/builds/590429636
+[![Build Status](https://travis-ci.org/Bantou96/backend.svg?branch=master)](https://travis-ci.org/Bantou96/backend)
 
 Cheikh Ahmed Tidiane Fall
 
