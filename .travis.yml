@@ -3,7 +3,7 @@ env:
   - CC_TEST_REPORTER_ID=c0426a146138996aed704d0be487f5c3e1aa05ba59ecd036b3be6ca8c9931a79
 language: ruby
 rvm:
-- 2.3.3
+- 2.5.1
 before_script:
 - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64
   > ./cc-test-reporter
@@ -16,5 +16,6 @@ after_script:
 - "./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT"
 deploy:
   provider: heroku
+  app: lp4abantou
   api_key:
     secure: aF6SvzmI41GhDgPKRLs+PT5aeDGamVa97V5Cy5o3gxzdBz8MDRQe0iwfgnBNWVz43cGUW3AFpshbDQhCKPCIB4lDzp+l5dIvi/ZKJGMmpmtxuoSu0HLrfcl7NPX9v0z/rpmFzPwxAGfw5gSi4K12vBtThkSYGqcsvgGLHLtLrlc0Fd883GrTOx8Uy1VLVG1GH3TfXKcyfbNmBdE3j4zKuug39BXUGzPPN2JncnWH4+/RIeghRKuf4CPCpKzdCpqDP3/Ogq/NFkCxMjyv2IB31KCQ0vnITQsA/3ZsilG8+ki6Sv/iEZMiwATYFsHcvSzBC5QiFV5xef81G4LLwB3A3lLaS9gCVxqDQJkRdbZRRknbfRAB25lTHI4I1mmQhb+pt3iWVVrn+Dna8R3hUKZCmBcLh01EeUAfq9V+tr15nbIROuCf2x6M+PcgTYQRVguG35vyw/aFqd2AwMhoSjfiQD3Wh5AAMY/QSsu8xZKW8Mi7bAjxOVe5/D6QTEoYLcxv98iN4kTRl6k5h7o7VmFeVxP7TohJZiJjaVTBK1xtfwV4L0qRI/o75nrs5Doo2iql+gAiw2y8pyrcRhFSciDGpTbcY8pZ+2xX+k99VCAgvUhL4Moiw6bZK2M5hPK3WvDsvSwJHZM4XIVel76kSSScR994bCNdO3Cn8RPw4N+7WFQ=
