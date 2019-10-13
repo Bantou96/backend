@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class CounterTest < ActiveSupport::TestCase
-  test "should have the necessary required validators" do
+  test "should increment the value" do
     counter = Counter.new
     counter.value = 0
 
